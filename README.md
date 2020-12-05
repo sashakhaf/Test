@@ -81,8 +81,8 @@ Another alternative to train and test a model is to run the following script.
 ```
 !python main.py
 ```
-##### Please change $DATA_PATH variable at the veriy beginning of the notebook (if you are using it) to the path containing the MRI Brain Tumor detection data.
-##### If you are running the script the $DATA_PATH variable can be located in the dataProcessing.py file.
+##### Please change $DATA_PATH variable at the very beginning of the notebook (if you are using it) to the path containing the MRI Brain Tumor detection data.
+##### If you are running the script the $DATA_PATH variable can be located in the main.py file.
 
 
 Add run commands and examples you think users will find useful. Provide
