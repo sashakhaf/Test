@@ -1,7 +1,7 @@
 # Test
 <p align="center">
   <a href="https://example.com/">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
+    <img src="https://github.com/sashakhaf/Test/blob/main/TCGA_CS_4943_20000902_3.tif" alt="Logo" width=72 height=72>
   </a>
 
   <h3 align="center">MRI Brain Tumor detection </h3>
