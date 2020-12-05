@@ -35,6 +35,10 @@
 
 ## Quick start
 Our project is a deep learning based image segmentation solution to first detect the brain tumor and predict the likelihood of tumor existence.
+- To begin:
+Clone the repo: git clone link_to_the_repo && cd folder_name
+
+
 
 ## Prerequisites
 
@@ -68,12 +72,14 @@ The data can be found in this link: <a href="https://www.kaggle.com/mateuszbuda/
 !kaggle datasets download -d mateuszbuda/lgg-mri-segmentation
 
 ```
-## Usage
+## How to train
 
 To use MRI Brain Tumor detection, follow these steps:
-
+The data README has a bare-bones example for how to load data and incorporate data transforms. This <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
+">jupyter notebook</a> contains a simple tutorial on how to load the data, train and test the model.
+Another alternative to train and test a model is to run the following script.
 ```
-<usage_example>
+!python main.py
 ```
 
 Add run commands and examples you think users will find useful. Provide
@@ -115,4 +121,4 @@ If you want to contact me you can reach me at <your_email@address.com>.
 
 <!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-This project uses the following license: [<license_name>](link).
+This project uses the following license: [MIT](link).
