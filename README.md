@@ -4,7 +4,7 @@
    <img src="https://github.com/sashakhaf/Test/blob/main/images%20(1).jpeg"  width=72 height=72>
  
 
-  <h3 align="center">MRI Brain Tumor detection </h3>
+  <h3 align="center">MRI Brain Tumor Detection </h3>
 
   <!--- <p align="center">
     Project name is a <utility/tool/feature> that allows <insert_target_audience> to do <action/task_it_does>.
