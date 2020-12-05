@@ -42,7 +42,7 @@ Before you begin, ensure you have met the following requirements:
 
 <!--- These are just example requirements. Add, duplicate or remove as required --->
 
-- You have installed:
+You have installed:
   
 * pandas==1.0.5
 * numpy==1.18.5
@@ -54,9 +54,10 @@ Before you begin, ensure you have met the following requirements:
 * scikit_learn==0.23.2
 
 It can be done through this command: ```pip install -r requirements```
-## Installation
+## Load the model
 
-To install <project_name>, follow these steps:
+The data can be found in this link: <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
+, follow these steps:
 
 npm:
 
