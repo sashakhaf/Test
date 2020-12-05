@@ -45,11 +45,9 @@ git clone link_to_the_repo && cd folder_name
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+Ensure you have met the following requirements by installing the following packages:
 
 <!--- These are just example requirements. Add, duplicate or remove as required --->
-
-You have installed:
   
 * pandas==1.0.5
 * numpy==1.18.5
