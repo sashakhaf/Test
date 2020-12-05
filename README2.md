@@ -37,7 +37,9 @@
 Our project is a deep learning based image segmentation solution to first detect the brain tumor and predict the likelihood of tumor existence.
 - To begin:
 Clone the repo: 
-```  git clone link_to_the_repo && cd folder_name 
+``` 
+git clone link_to_the_repo && cd folder_name 
+
 ``` 
 
 
