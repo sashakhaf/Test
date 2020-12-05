@@ -16,11 +16,11 @@
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/tkjohnson121/shrt)
+<!--- ![GitHub repo size](https://img.shields.io/github/repo-size/tkjohnson121/shrt)
 ![GitHub contributors](https://img.shields.io/github/contributors/tkjohnson121/shrt)
 ![GitHub stars](https://img.shields.io/github/stars/tkjohnson121/shrt?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/tkjohnson121/shrt?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/tkjohnson121?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/tkjohnson121?style=social) --->
 
 ## Table of contents
 
@@ -34,12 +34,7 @@
 - [License](#license)
 
 ## Quick start
-
-Some text
-
-- Instruction 1
-- Instruction 2
-- Instruction 3
+Our project is a deep learning based image segmentation solution to first detect the brain tumor and predict the likelihood of tumor existence.
 
 ## Prerequisites
 
@@ -47,9 +42,16 @@ Before you begin, ensure you have met the following requirements:
 
 <!--- These are just example requirements. Add, duplicate or remove as required --->
 
-- You have installed the latest version of `node`
-- You have read `<guide/link/documentation_related_to_project>`.
-
+- You have installed:
+pandas==1.0.5
+numpy==1.18.5
+albumentations==0.5.2
+opencv_python_headless==4.4.0.46
+matplotlib==3.2.2
+torchvision==0.7.0
+torch==1.6.0
+scikit_learn==0.23.2
+It can be done through this command: ```pip install -r requirements```
 ## Installation
 
 To install <project_name>, follow these steps:
