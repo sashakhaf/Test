@@ -5,14 +5,14 @@
 
   <h3 align="center">MRI Brain Tumor detection </h3>
 
-  <p align="center">
+  <!--- <p align="center">
     Project name is a <utility/tool/feature> that allows <insert_target_audience> to do <action/task_it_does>.
     <br>
     <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
     ·
     <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
   </p>
-</p>
+</p> --->
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 
