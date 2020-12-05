@@ -56,13 +56,17 @@ You have installed:
 It can be done through this command: ```pip install -r requirements```
 ## Load the model
 
-The data can be found in this link: <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
-, follow these steps:
+The data can be found in this link: <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
+">Brain MRI segmentation</a>
+, following these steps:
 
-npm:
+Generate a key in you kaggle account:
 
-```
-<install_command>
+``` 
+!mkdir ~/.kaggle/
+!echo '{"username":"your_user_name","key":"key_you_have_generated"}' > ~/.kaggle/kaggle.json
+!kaggle datasets download -d mateuszbuda/lgg-mri-segmentation
+
 ```
 
 yarn:
