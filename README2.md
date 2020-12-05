@@ -54,13 +54,13 @@ You have installed:
 * scikit_learn==0.23.2
 
 It can be done through this command: ```pip install -r requirements```
-## Load the model
+## Dataset
 
 The data can be found in this link: <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
-">Brain MRI segmentation</a>
-, following these steps:
+">Brain MRI segmentation</a>. It can be loaded following these steps:
 
-Generate a key in you kaggle account:
+- Generate a key in you kaggle account.
+- run these command:
 
 ``` 
 !mkdir ~/.kaggle/
@@ -68,16 +68,9 @@ Generate a key in you kaggle account:
 !kaggle datasets download -d mateuszbuda/lgg-mri-segmentation
 
 ```
-
-yarn:
-
-```
-<install_command>
-```
-
 ## Usage
 
-To use <project_name>, follow these steps:
+To use MRI Brain Tumor detection, follow these steps:
 
 ```
 <usage_example>
