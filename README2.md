@@ -43,21 +43,15 @@ Before you begin, ensure you have met the following requirements:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
 
 - You have installed:
-  pandas==1.0.5
-
-  numpy==1.18.5
-
-  albumentations==0.5.2
-
-  opencv_python_headless==4.4.0.46
-
-  matplotlib==3.2.2
-
-  torchvision==0.7.0
-
-  torch==1.6.0
-
-  scikit_learn==0.23.2
+  
+* pandas==1.0.5
+* numpy==1.18.5
+* albumentations==0.5.2
+* opencv_python_headless==4.4.0.46
+* matplotlib==3.2.2
+* torchvision==0.7.0
+* torch==1.6.0
+* scikit_learn==0.23.2
 
 It can be done through this command: ```pip install -r requirements```
 ## Installation
