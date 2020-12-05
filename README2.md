@@ -72,15 +72,16 @@ The data can be found in this link: <a href="https://www.kaggle.com/mateuszbuda/
 !kaggle datasets download -d mateuszbuda/lgg-mri-segmentation
 
 ```
-## How to train
-
-To use MRI Brain Tumor detection, follow these steps:
-The data README has a bare-bones example for how to load data and incorporate data transforms. This <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
+## How to Train & Test
+This <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
 ">jupyter notebook</a> contains a simple tutorial on how to load the data, train and test the model.
 Another alternative to train and test a model is to run the following script.
 ```
 !python main.py
 ```
+# Please change $DATA_PATH variable at the veriy beginning of the notebook (if you are using it) to the path containing the MRI Brain Tumor detection data.
+# If you are running the script the $DATA_PATH variable can be located in the dataProcessing.py file.
+
 
 Add run commands and examples you think users will find useful. Provide
 an options reference for bonus points!
@@ -105,20 +106,20 @@ Alternatively see the GitHub documentation on
 
 Thanks to the following people who have contributed to this project:
 
-- [@tkjohnson121](https://github.com/tkjohnson121) 📖
-- [@gvempire_dev](https://github.com/gvempire_dev) 📖
+- [@Cyrille](https://github.com/tkjohnson121) 📖
+- [@Aissatou](https://github.com/gvempire_dev) 📖
 
-You might want to consider using something like the
+<!--- You might want to consider using something like the
 [All Contributors](https://github.com/all-contributors/all-contributors)
 specification and its
-[emoji key](https://allcontributors.org/docs/en/emoji-key).
+[emoji key](https://allcontributors.org/docs/en/emoji-key). --->
 
 ## Contact
 
-If you want to contact me you can reach me at <your_email@address.com>.
+If you want to contact me you can reach me at <fadel_email@address.com>.
 
 ## License
 
 <!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-This project uses the following license: [MIT](link).
+This project uses the following license: [MIT licence file](https://github.com/sashakhaf/Test/blob/main/LICENSE).
