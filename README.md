@@ -62,16 +62,16 @@ Ensure you have met the following requirements by installing the following packa
 It can be done through this command line: ```pip install -r requirements```
 ## Dataset
 
-The data can be found in this link: <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
-">Brain MRI segmentation</a>. It can be loaded following these steps:
+The data can be downloaded directly from this link: <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
+">Brain MRI segmentation</a>. You can also download it in command line following these steps:
 
 - Generate a key in you kaggle account.
 - run these commands:
 
 ``` 
-!mkdir ~/.kaggle/
-!echo '{"username":"your_user_name","key":"key_you_have_generated"}' > ~/.kaggle/kaggle.json
-!kaggle datasets download -d mateuszbuda/lgg-mri-segmentation
+mkdir ~/.kaggle/
+echo '{"username":"your_user_name","key":"key_you_have_generated"}' > ~/.kaggle/kaggle.json
+kaggle datasets download -d mateuszbuda/lgg-mri-segmentation
 
 ```
 ## How to Train & Test
@@ -82,7 +82,7 @@ Another alternative to train and test a model is to run the following script.
 !python main.py
 ```
 ##### Please change $DATA_PATH variable at the very beginning of the notebook (if you are using it) to the path containing the MRI Brain Tumor detection data.
-##### If you are running the script the $DATA_PATH variable can be located in the main.py file.
+##### If you are running the main.py script the $DATA_PATH located in has also to be changed.
 
 
 Add run commands and examples you think users will find useful. Provide
