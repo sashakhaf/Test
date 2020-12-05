@@ -27,7 +27,7 @@
 - [Quick start](#quick-start)
 - [Prerequisites](#prerequisites)
 - [Dataset](#Dataset)
-- [How to Train/Test](#How to Train/Test)
+- [How to Train & Test](#HowtoTrain&Test)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 - [Contact](#contact)
